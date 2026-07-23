@@ -4,24 +4,24 @@
 class Athanor < Formula
   desc "Web-based platform for managing agentic coding sessions"
   homepage "https://github.com/TranscendOfSypherus/athanor-releases"
-  version "0.1.4"
+  version "0.1.5"
   license :cannot_represent # free binaries, not open source — see the releases repo
 
   on_macos do
     on_arm do
-      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.4/athanor-mac-arm64"
-      sha256 "8990f37c0e05f075a386de0e1213582a6fbcad7c2796dc75a3b9a8b84a8fe2ee"
+      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.5/athanor-mac-arm64"
+      sha256 "abe20d5e5c96bb8dc2bb50faa140c33f3d80590920f259de944086321aadf51d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.4/athanor-linux-arm64"
-      sha256 "4df854a84d909b0589bedc844b8fdc6efe06219f447a65920cfa26499db2208a"
+      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.5/athanor-linux-arm64"
+      sha256 "7a4878c34ab4524a5143169d2fbdb02b0b62009279c276ff92bbabd328479d16"
     end
     on_intel do
-      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.4/athanor-linux-x64"
-      sha256 "2914a2f7c3243f25fc9c935c89f56f029fff6342fa52e5cad04d0219260e4e2a"
+      url "https://github.com/TranscendOfSypherus/athanor-releases/releases/download/v0.1.5/athanor-linux-x64"
+      sha256 "b654e0ba01073df2a9b452dff1ec4d1e128e2f5032e2210c608dabf573475699"
     end
   end
 
